@@ -10,7 +10,7 @@ public class App {
         task.getDescription()+
         task.getStatus());
         task.setStatus(true);
-        System.out.println("tarea finalizada"+ task.getName() + "Description" + task.getDescription() );
+        System.out.println("tarea finalizada"+ task.getName() + " Description" + task.getDescription()  + task.getStatus());
 
     }
 }
